@@ -9,11 +9,11 @@
  
  And then add 2 cmake commands in your CMakeList.txt. Example:
 
- #Change those path if you modify opencv-mingw's path or directory.
+    #Change those path if you modify opencv-mingw's path or directory.
  
- include_directories(C://opencv-mingw//mingw-build//include)
+    include_directories(C://opencv-mingw//mingw-build//include)
  
- link_libraries(C://opencv-mingw//mingw-build//x86//mingw//bin//libopencv_world341.dll)
+    link_libraries(C://opencv-mingw//mingw-build//x86//mingw//bin//libopencv_world341.dll)
  
 
  The java and python directories are come form offical Win pack. 
